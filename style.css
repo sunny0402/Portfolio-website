@@ -702,10 +702,13 @@ html {
 }
 
 .card-info h3 {
-  font-family: "Mulish", serif;
+  /* font-family: "Mulish", serif; */
+  font-family: "Baloo Da 2", serif;
   font-size: 2rem;
-  font-weight: 500;
-  color: #a52a2a;
+  line-height: 2rem;
+  font-weight: 200;
+  /* color: #a52a2a; */
+  color: #eee;
   /* space at bottom of element */
   margin-bottom: 1rem;
 }
