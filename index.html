@@ -49,7 +49,7 @@
         <span>Close</span>
       </div>
       <!-- Page 1 -->
-      <header class="header">
+      <header class="header" id="section_1_header">
         <!-- header contains image and banner -->
         <div class="img-wrapper">
           <img src="images/header_img_v2.jpg" />
@@ -59,7 +59,9 @@
           <!-- I create web applications for maker/ for everyone -->
           <!-- I create web applications & write software to solve problems, drive business, empower communities -->
           <p>I create full stack web applications.</p>
-          <button>My work</button>
+          <button onclick="window.location.href='#section_4_contact';">
+            Contact Me
+          </button>
         </div>
         <!-- Page 1 -->
       </header>
@@ -68,19 +70,33 @@
         <!-- navigation items and social media icons -->
         <ul class="menu">
           <li class="menu-item">
-            <a href="#" class="menu-link" data-content="Home">Home</a>
+            <a href="#section_1_header" class="menu-link" data-content="Home"
+              >Home</a
+            >
           </li>
           <li class="menu-item">
-            <a href="#" class="menu-link" data-content="About Me">About Me</a>
+            <a
+              href="#section_2_services"
+              class="menu-link"
+              data-content="Services"
+              >Services</a
+            >
           </li>
           <li class="menu-item">
-            <a href="#" class="menu-link" data-content="Projects">Projects</a>
+            <a
+              href="#section_3_projects"
+              class="menu-link"
+              data-content="Projects"
+              >Projects</a
+            >
           </li>
           <li class="menu-item">
-            <a href="#" class="menu-link" data-content="Services">Services</a>
-          </li>
-          <li class="menu-item">
-            <a href="#" class="menu-link" data-content="Contact">Contact</a>
+            <a
+              href="#section_4_contact"
+              class="menu-link"
+              data-content="Contact"
+              >Contact</a
+            >
           </li>
         </ul>
         <div class="social-media">
@@ -92,7 +108,7 @@
       </section>
 
       <!-- Page 2: My Services -->
-      <section class="services_section">
+      <section class="services_section" id="section_2_services">
         <div class="section-header">
           <!-- heading and underline -->
           <h1 class="section-heading">Services</h1>
@@ -165,7 +181,7 @@
       </section>
 
       <!-- Page 3: My Projects -->
-      <section class="projects">
+      <section class="projects" id="section_3_projects">
         <div class="section-header">
           <!-- heading and underline -->
           <h1 class="section-heading">My Projects</h1>
@@ -225,7 +241,7 @@
       </section>
 
       <!-- Page 4: Contact Me -->
-      <section class="contact">
+      <section class="contact" id="section_4_contact">
         <div class="contact-wrapper">
           <!-- Contact Section divided into left and right -->
           <div class="contact-left"></div>
