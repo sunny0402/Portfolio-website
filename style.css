@@ -491,7 +491,8 @@ html {
 /* Services Section */
 .services_section {
   width: 100%;
-  background-color: #f5f5f5;
+  /* background-color: #f5f5f5; */
+  background-color: #e8e8e8;
   padding-bottom: 15rem;
 }
 
@@ -596,6 +597,7 @@ html {
   font-family: "Josefin Slab", serif;
   /* font-size: 1.6rem; */
   font-size: 2rem;
+  font-weight: bold;
   text-align: justify;
 }
 
@@ -767,15 +769,16 @@ html {
 .contact-left {
   width: 40%;
   /* mage consisting of a progressive transition between two or more colors */
-  background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.9)),
+  background: linear-gradient(rgba(15, 15, 15, 0.9), rgba(22, 22, 22, 0.2)),
     url(images/contact_section.jpg) center no-repeat;
   background-size: cover;
 }
 
 /* right side contains form */
 .contact-right {
-  width: 60%;
-  background-color: #eee;
+  /* width: 60%;
+  background-color: #eee; */
+  background-color: #e8e8e8;
   /* top and rest */
   padding: 3rem 10rem 10rem 10rem;
 }
@@ -835,6 +838,7 @@ html {
   position: absolute;
   /* left property sets the left edge of element if position absolute */
   left: 0;
+  top: 0.3rem;
   font-family: "Baloo Da 2", serif;
   font-size: 1.8rem;
   color: #4b4b4b;
@@ -857,8 +861,8 @@ html {
 
 /*  ( ~ ) is the general sibling combinator */
 .field:focus ~ label {
-  transform: translateY(-3rem);
-  font-size: 1.2rem;
+  transform: translateY(-1.8rem);
+  font-size: 1.4rem;
 }
 
 .submit-btn {
