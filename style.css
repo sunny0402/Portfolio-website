@@ -365,10 +365,12 @@ html {
   height: 7rem;
   background-color: #c29525;
   font-family: "Baloo Da 2", sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
   color: #fff;
   /* offset-x | offset-y | blur-radius | color */
-  text-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+  /* text-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1); */
   box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
   border-radius: 0.7rem;
   border: none;
@@ -875,11 +877,12 @@ html {
   margin-top: 2rem;
   font-family: "Baloo Da 2", serif;
   font-size: 1.6rem;
-  font-weight: 300;
+  /* font-weight: 300; */
+  font-weight: normal;
   text-transform: uppercase;
-  letter-spacing: 0.2rem;
+  /* letter-spacing: 0.2rem; */
   cursor: pointer;
-  text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+  /* text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5); */
   box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.4);
 }
 
