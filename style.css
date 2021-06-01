@@ -636,6 +636,8 @@ html {
 
 .cards-wrapper {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   /* space between cards */
   justify-content: space-evenly;
   /* space at the top of the cards */
@@ -1030,8 +1032,8 @@ html {
 
   .cards-wrapper {
     /* switch direction */
-    flex-direction: column;
-    align-items: center;
+    /* flex-direction: column; */
+    /* align-items: center;  */
     margin-top: 4rem;
   }
 
