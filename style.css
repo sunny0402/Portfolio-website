@@ -639,7 +639,7 @@ html {
   flex-direction: column;
   align-items: center;
   /* space between cards */
-  justify-content: space-evenly;
+  justify-content: center;
   /* space at the top of the cards */
   margin-top: 8rem;
   width: 100%;
@@ -648,6 +648,7 @@ html {
 .card {
   width: 37rem;
   height: 45rem;
+  margin-top: 1rem;
   box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.6);
   border-radius: 0.5rem;
   /* .card-info positioned absolutely relative to .card */
