@@ -1,168 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content="Web development, programming, data analysis, Python, JavaScript, PHP."
-    />
-    <meta
-      name="keywords"
-      content="full stack web applications, web development,web developer toronto, app development, HTML, CSS, JavaScript, PHP, Python, data analysis, machine learning."
-    />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Development by Sunny Codes</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- spinner -->
-    <div class="spinner-container">
-      <div class="circles">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Web development, programming, data analysis, Python, JavaScript, PHP." />
+  <meta name="keywords"
+    content="full stack web applications, web development,web developer toronto, app development, HTML, CSS, JavaScript, PHP, Python, data analysis, machine learning." />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Development by Sunny Codes</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <!-- spinner -->
+  <div class="spinner-container">
+    <div class="circles">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
-    <div class="container">
-      <!-- Menu Icon -->
-      <div class="hamburger-menu">
-        <div class="line line1"></div>
-        <div class="line line2"></div>
-        <div class="line line3"></div>
-        <span>Close</span>
+  </div>
+  <div class="container">
+    <!-- Menu Icon -->
+    <div class="hamburger-menu">
+      <div class="line line1"></div>
+      <div class="line line2"></div>
+      <div class="line line3"></div>
+      <span>Close</span>
+    </div>
+    <!-- Page 1 -->
+    <header class="header" id="section_1_header">
+      <!-- header contains image and banner -->
+      <div class="img-wrapper">
+        <img src="images/header_img_v2.jpg" />
+      </div>
+      <div class="banner">
+        <h1>Hi, my name is Alex and I am a software developer.</h1>
+        <!-- I create web applications for maker/ for everyone -->
+        <!-- I create web applications & write software to solve problems, drive business, empower communities -->
+        <p>I create full stack web applications.</p>
+        <button onclick="window.location.href='#section_3_projects';">
+          View Projects
+        </button>
       </div>
       <!-- Page 1 -->
-      <header class="header" id="section_1_header">
-        <!-- header contains image and banner -->
-        <div class="img-wrapper">
-          <img src="images/header_img_v2.jpg" />
-        </div>
-        <div class="banner">
-          <h1>Hi, my name is Alex and I am a software developer.</h1>
-          <!-- I create web applications for maker/ for everyone -->
-          <!-- I create web applications & write software to solve problems, drive business, empower communities -->
-          <p>I create full stack web applications.</p>
-          <button onclick="window.location.href='#section_3_projects';">
-            View Projects
-          </button>
-        </div>
-        <!-- Page 1 -->
-      </header>
-      <!--Sidebar -->
-      <section class="sidebar">
-        <!-- navigation items and social media icons -->
-        <ul class="menu">
-          <li class="menu-item">
-            <a href="#section_1_header" class="menu-link" data-content="Home"
-              >Home</a
-            >
-          </li>
-          <li class="menu-item">
-            <a
-              href="#section_2_services"
-              class="menu-link"
-              data-content="Services"
-              >Services</a
-            >
-          </li>
-          <li class="menu-item">
-            <a
-              href="#section_3_projects"
-              class="menu-link"
-              data-content="Projects"
-              >Projects</a
-            >
-          </li>
-          <li class="menu-item">
-            <a
-              href="#section_4_contact"
-              class="menu-link"
-              data-content="Contact"
-              >Contact</a
-            >
-          </li>
-        </ul>
-        <div class="social-media">
-          <a href="https://github.com/sunny0402"
-            ><i class="fab fa-github"></i
-          ></a>
-          <!-- <a href="#"><i class="fab fa-facebook-f"></i></a>
+    </header>
+    <!--Sidebar -->
+    <section class="sidebar">
+      <!-- navigation items and social media icons -->
+      <ul class="menu">
+        <li class="menu-item">
+          <a href="#section_1_header" class="menu-link" data-content="Home">Home</a>
+        </li>
+        <li class="menu-item">
+          <a href="#section_2_services" class="menu-link" data-content="Services">Services</a>
+        </li>
+        <li class="menu-item">
+          <a href="#section_3_projects" class="menu-link" data-content="Projects">Projects</a>
+        </li>
+        <li class="menu-item">
+          <a href="#section_4_contact" class="menu-link" data-content="Contact">Contact</a>
+        </li>
+      </ul>
+      <div class="social-media">
+        <a href="https://github.com/sunny0402"><i class="fab fa-github"></i></a>
+        <!-- <a href="#"><i class="fab fa-facebook-f"></i></a>
           <a href="#"><i class="fab fa-instagram"></i></a>
           <a href="#"><i class="fab fa-twitter"></i></a> -->
+      </div>
+      <!--Sidebar -->
+    </section>
+
+    <!-- Page 2: My Services -->
+    <section class="services_section" id="section_2_services">
+      <div class="section-header">
+        <!-- heading and underline -->
+        <h1 class="section-heading">My Skills</h1>
+        <div class="underline"></div>
+      </div>
+
+      <div class="services">
+        <div class="service">
+          <div class="service-header">
+            <i class="fab fa-python"></i>
+            <h3>Python</h3>
+          </div>
+          <p class="service-text">
+            Pandas and PyTorch to analyze data and make
+            predictions.
+          </p>
         </div>
-        <!--Sidebar -->
-      </section>
 
-      <!-- Page 2: My Services -->
-      <section class="services_section" id="section_2_services">
-        <div class="section-header">
-          <!-- heading and underline -->
-          <h1 class="section-heading">My Skills</h1>
-          <div class="underline"></div>
+        <div class="service">
+          <div class="service-header">
+            <i class="fas fa-database"></i>
+            <h3>MySQL</h3>
+          </div>
+          <p class="service-text">
+            Create relational databases with MySQL, perform queries and
+            connect to PHP and JavaScript web applications.
+          </p>
         </div>
 
-        <div class="services">
-          <div class="service">
-            <div class="service-header">
-              <i class="fab fa-python"></i>
-              <h3>Python</h3>
-            </div>
-            <p class="service-text">
-              Use libraries such as Pandas and PyTorch to analyze data and make
-              predictions.
-            </p>
+        <div class="service">
+          <div class="service-header">
+            <i class="fab fa-php"></i>
+            <h3>PHP</h3>
           </div>
+          <p class="service-text">
+            Create full stack web applications with PHP/Laravel.
+          </p>
+        </div>
 
-          <div class="service">
-            <div class="service-header">
-              <i class="fas fa-database"></i>
-              <h3>MySQL</h3>
-            </div>
-            <p class="service-text">
-              Create relational databases with MySQL, perform queries and
-              connect to PHP applications.
-            </p>
+        <div class="service">
+          <div class="service-header">
+            <i class="fab fa-js-square"></i>
+            <h3>JavaScript</h3>
           </div>
+          <p class="service-text">
+            Create modern websites with JavaScript, React, and Redux.
+          </p>
+        </div>
 
-          <div class="service">
-            <div class="service-header">
-              <i class="fab fa-php"></i>
-              <h3>PHP</h3>
-            </div>
-            <p class="service-text">
-              Create full stack applications with PHP and MySQL.
-            </p>
-          </div>
-
-          <div class="service">
-            <div class="service-header">
-              <i class="fab fa-js-square"></i>
-              <h3>JavaScript</h3>
-            </div>
-            <p class="service-text">
-              Create responsive websites with vanilla JavaScript, CSS, jQuery,
-              and server side applications with Express.js.
-            </p>
-          </div>
-
-          <!-- <div class="service">
+        <!-- <div class="service">
             <div class="service-header">
               <i class="fab fa-react"></i>
               <h3>React</h3>
@@ -182,173 +155,149 @@
             </p>
           </div> -->
 
-          <div class="service-image-wrapper">
-            <img src="images/services_v2.jpg" />
+        <div class="service-image-wrapper">
+          <img src="images/services_v2.jpg" />
+        </div>
+      </div>
+      <!-- Page 2: My Services -->
+    </section>
+
+    <!-- Page 3: My Projects -->
+    <section class="projects" id="section_3_projects">
+      <div class="section-header">
+        <!-- heading and underline -->
+        <h1 class="section-heading">Projects</h1>
+        <div class="underline"></div>
+      </div>
+
+      <div class="cards-wrapper">
+        <!-- individual project cards -->
+
+        <div class="card" data-tilt>
+          <div class="card-img-wrapper">
+            <img src="images/text_analysis_picture.jpg" alt="test analysis project" />
+          </div>
+          <div class="card-info">
+            <h2>Title: Text Analysis Page</h2>
+            <h3>Tech Stack: JavaScript, Express.js,webpack, Jest</h3>
+            <p>"Summary and sentiment analysis for any text."</p>
+            <button onclick="window.location.href='https://text-analysis-app.herokuapp.com/'">
+              View Project
+            </button>
           </div>
         </div>
-        <!-- Page 2: My Services -->
-      </section>
+        <!-- end of project card -->
 
+        <div class="card" data-tilt>
+          <div class="card-img-wrapper">
+            <img src="images/proj_1_data_analysis.png" alt="data analysis project" />
+          </div>
+          <div class="card-info">
+            <h2>Title: Data Analysis Project</h2>
+            <h3>Tech Stack: Python, Pandas, Pytorch</h3>
+            <p>"NLP, deep neural networks & random forests."</p>
+            <button onclick="window.location.href='https://github.com/sunny0402/Data-Analysis-Projects'">
+              View Project
+            </button>
+          </div>
+        </div>
+        <!-- end of project card -->
+
+        <div class="card" data-tilt>
+          <div class="card-img-wrapper">
+            <img src="images/proj_2_google_clone.png" alt="a google search clone" />
+          </div>
+          <div class="card-info">
+            <h2>Title: Google Search Clone</h2>
+            <h3>Tech Stack: PHP, Javascript, MySQL</h3>
+            <p>"A google clone built with PHP and MySQL."</p>
+            <button onclick="window.location.href='https://github.com/sunny0402/google-clone-website'">
+              View Project
+            </button>
+          </div>
+        </div>
+        <!-- end of project card -->
+
+        <div class="card" data-tilt>
+          <div class="card-img-wrapper">
+            <img src="images/prok_3_in_progress.png" alt="data analysis project" />
+          </div>
+          <div class="card-info">
+            <h2>Title: Math Facts Page</h2>
+            <h3>Tech Stack: JavaScript, Express.js</h3>
+            <p>"Get a math fact for any integer of your choice."</p>
+            <button onclick="window.location.href='https://mathfactspage.herokuapp.com/'">
+              View Project
+            </button>
+          </div>
+        </div>
+        <!-- end of project card -->
+
+        <!-- cards-wrapper close div -->
+      </div>
       <!-- Page 3: My Projects -->
-      <section class="projects" id="section_3_projects">
-        <div class="section-header">
-          <!-- heading and underline -->
-          <h1 class="section-heading">Projects</h1>
-          <div class="underline"></div>
+    </section>
+
+    <!-- Page 4: Contact Me -->
+    <section class="contact" id="section_4_contact">
+      <div class="contact-wrapper">
+        <!-- Contact Section divided into left and right -->
+        <div class="contact-left"></div>
+        <div class="contact-right">
+          <h1 class="contact-heading">Contact</h1>
+          <!-- for netlify data-netlify -->
+          <form action="POST" data-netlify="true">
+            <!-- name -->
+            <div class="input-group">
+              <input type="text" class="field" name="name" />
+              <label class="input-label">Full Name</label>
+            </div>
+            <!-- email -->
+            <div class="input-group">
+              <input type="email" class="field" name="email" />
+              <label class="input-label">Email</label>
+            </div>
+            <!-- message textarea -->
+            <div class="input-group">
+              <textarea class="field" name="message"></textarea>
+              <label class="message">Message</label>
+            </div>
+            <!-- <input type="button" class="submit-btn" value="Submit" /> -->
+            <!-- for netlify -->
+            <input type="submit" class="submit-btn" value="Submit" />
+          </form>
+          <!-- contact right -->
         </div>
-
-        <div class="cards-wrapper">
-          <!-- individual project cards -->
-
-          <div class="card" data-tilt>
-            <div class="card-img-wrapper">
-              <img
-                src="images/text_analysis_picture.jpg"
-                alt="test analysis project"
-              />
-            </div>
-            <div class="card-info">
-              <h2>Title: Text Analysis Page</h2>
-              <h3>Tech Stack: JavaScript, Express.js,webpack, Jest</h3>
-              <p>"Summary and sentiment analysis for any text."</p>
-              <button
-                onclick="window.location.href='https://text-analysis-app.herokuapp.com/'"
-              >
-                View Project
-              </button>
-            </div>
-          </div>
-          <!-- end of project card -->
-
-          <div class="card" data-tilt>
-            <div class="card-img-wrapper">
-              <img
-                src="images/proj_1_data_analysis.png"
-                alt="data analysis project"
-              />
-            </div>
-            <div class="card-info">
-              <h2>Title: Data Analysis Project</h2>
-              <h3>Tech Stack: Python, Pandas, Pytorch</h3>
-              <p>"NLP, deep neural networks & random forests."</p>
-              <button
-                onclick="window.location.href='https://github.com/sunny0402/Data-Analysis-Projects'"
-              >
-                View Project
-              </button>
-            </div>
-          </div>
-          <!-- end of project card -->
-
-          <div class="card" data-tilt>
-            <div class="card-img-wrapper">
-              <img
-                src="images/proj_2_google_clone.png"
-                alt="a google search clone"
-              />
-            </div>
-            <div class="card-info">
-              <h2>Title: Google Search Clone</h2>
-              <h3>Tech Stack: PHP, Javascript, MySQL</h3>
-              <p>"A google clone built with PHP and MySQL."</p>
-              <button
-                onclick="window.location.href='https://github.com/sunny0402/google-clone-website'"
-              >
-                View Project
-              </button>
-            </div>
-          </div>
-          <!-- end of project card -->
-
-          <div class="card" data-tilt>
-            <div class="card-img-wrapper">
-              <img
-                src="images/prok_3_in_progress.png"
-                alt="data analysis project"
-              />
-            </div>
-            <div class="card-info">
-              <h2>Title: Math Facts Page</h2>
-              <h3>Tech Stack: JavaScript, Express.js</h3>
-              <p>"Get a math fact for any integer of your choice."</p>
-              <button
-                onclick="window.location.href='https://mathfactspage.herokuapp.com/'"
-              >
-                View Project
-              </button>
-            </div>
-          </div>
-          <!-- end of project card -->
-
-          <!-- cards-wrapper close div -->
+        <!-- contact-wrapper -->
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p class="copyright">
+          Copyright &copy; 2021, sunny0402 - All rights reserved.
+        </p>
+        <div class="social-list">
+          <!-- <a href="#"><i class="fab fa-facebook-f"></i></a> -->
+          <a href="https://github.com/sunny0402"><i class="fab fa-github"></i></a>
+          <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
         </div>
-        <!-- Page 3: My Projects -->
-      </section>
+      </div>
+    </footer>
+    <a href="#" class="scroll-btn">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- div class="container"-->
+  </div>
 
-      <!-- Page 4: Contact Me -->
-      <section class="contact" id="section_4_contact">
-        <div class="contact-wrapper">
-          <!-- Contact Section divided into left and right -->
-          <div class="contact-left"></div>
-          <div class="contact-right">
-            <h1 class="contact-heading">Contact</h1>
-            <!-- for netlify data-netlify -->
-            <form action="POST" data-netlify="true">
-              <!-- name -->
-              <div class="input-group">
-                <input type="text" class="field" name="name" />
-                <label class="input-label">Full Name</label>
-              </div>
-              <!-- email -->
-              <div class="input-group">
-                <input type="email" class="field" name="email" />
-                <label class="input-label">Email</label>
-              </div>
-              <!-- message textarea -->
-              <div class="input-group">
-                <textarea class="field" name="message"></textarea>
-                <label class="message">Message</label>
-              </div>
-              <!-- <input type="button" class="submit-btn" value="Submit" /> -->
-              <!-- for netlify -->
-              <input type="submit" class="submit-btn" value="Submit" />
-            </form>
-            <!-- contact right -->
-          </div>
-          <!-- contact-wrapper -->
-        </div>
-      </section>
-      <!-- Footer -->
-      <footer class="footer">
-        <div class="footer-content">
-          <p class="copyright">
-            Copyright &copy; 2021, sunny0402 - All rights reserved.
-          </p>
-          <div class="social-list">
-            <!-- <a href="#"><i class="fab fa-facebook-f"></i></a> -->
-            <a href="https://github.com/sunny0402"
-              ><i class="fab fa-github"></i
-            ></a>
-            <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
-          </div>
-        </div>
-      </footer>
-      <a href="#" class="scroll-btn">
-        <i class="fas fa-arrow-up"></i>
-      </a>
-      <!-- div class="container"-->
-    </div>
+  <script src="script.js"></script>
+  <!-- jquery uncompressed version -->
+  <!-- https://code.jquery.com/ -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <!-- https://gijsroge.github.io/tilt.js/ -->
+  <!-- https://github.com/gijsroge/tilt.js -->
+  <script src="tilt.js"></script>
+</body>
 
-    <script src="script.js"></script>
-    <!-- jquery uncompressed version -->
-    <!-- https://code.jquery.com/ -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.js"
-      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-      crossorigin="anonymous"
-    ></script>
-    <!-- https://gijsroge.github.io/tilt.js/ -->
-    <!-- https://github.com/gijsroge/tilt.js -->
-    <script src="tilt.js"></script>
-  </body>
 </html>
