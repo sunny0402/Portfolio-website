@@ -634,21 +634,28 @@ html {
   padding: 0 5rem 20rem 5rem;
 }
 
-.cards-wrapper {
+/* Previously a flex container */
+/* .cards-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* space between cards */
   justify-content: center;
-  /* space at the top of the cards */
   margin-top: 8rem;
   width: 100%;
+} */
+
+.cards-wrapper {
+  /* width: 100%; */
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5em;
 }
 
 .card {
   width: 37rem;
   height: 45rem;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.6);
   border-radius: 0.5rem;
   /* .card-info positioned absolutely relative to .card */
@@ -1028,18 +1035,16 @@ html {
 
 @media (max-width: 1300px) {
   .projects {
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
   }
 
   .cards-wrapper {
-    /* switch direction */
-    /* flex-direction: column; */
-    /* align-items: center;  */
-    margin-top: 4rem;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: repeat(auto-fit, minmax(15em, 1fr)); */
   }
 
   .card {
-    margin-bottom: 8rem;
+    margin-bottom: 2rem;
   }
 
   .contact-wrapper {
@@ -1092,6 +1097,10 @@ html {
 
   .service-image-wrapper img {
     width: 100%;
+  }
+
+  .cards-wrapper {
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .contact-left {
